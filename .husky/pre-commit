@@ -1,0 +1,8 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+npx --no-install lint-staged
+
+echo '================ 代码通过ESLint校验 (*￣︶￣*) ==================='
+
+echo '++++++++++ (*^▽^*) 开始检查Git提交规则,请稍后...(*^▽^*) +++++++++'

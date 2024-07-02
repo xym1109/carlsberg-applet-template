@@ -1,0 +1,12 @@
+/dist/*
+.local
+/node_modules/**
+index.html
+manifest.json
+
+**/*.svg
+**/*.sh
+# 第三方的组件库不做检查及格式化
+src/wxcomponents/*
+src/sha/*
+src/utils/carlsbergSentry/sentry-mina.js

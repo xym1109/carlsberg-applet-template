@@ -1,0 +1,111 @@
+page {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  font-size: 28rpx;
+  font-weight: 400;
+}
+.MP-Font {
+  font-family: 'FZQingKeBenYueSongS-R-GB';
+}
+button {
+  font-size: 28rpx;
+  line-height: 1;
+  border-radius: none;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  background-color: transparent;
+}
+button::after {
+  border: none;
+}
+.page-content {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.block {
+  display: block;
+}
+.flex {
+  display: flex;
+}
+.flex-c-c {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flex-space-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flex-x-center {
+  display: flex;
+  align-items: center;
+}
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.border-box {
+  box-sizing: border-box;
+}
+.ellipsis {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.border-box {
+  box-sizing: border-box;
+}
+.bold {
+  font-weight: 700;
+}
+.full-bg {
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.common-btn {
+  width: 606rpx;
+  height: 100rpx;
+  font-size: 40rpx;
+  color: $theme;
+  background: url('https://img.carlsberg.cn/container-reference/scrm/2023-12-29/f655138c825249b9ae848bb1d1f901a4.png')
+    no-repeat 0 0/100% 100%;
+}
+.medium-btn {
+  width: 406rpx;
+  height: 100rpx;
+  font-size: 40rpx;
+  color: $theme;
+  background: url('https://img.carlsberg.cn/container-reference/scrm/2024-01-05/da6f3905f77b4ce9b8938e1ddf482dbc.png')
+    no-repeat 0 0/100% 100%;
+}
+.re {
+  position: relative;
+}
+.ab {
+  position: absolute;
+}
+.ab-c-c {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.ab-x-c {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.mtop40 {
+  margin-top: 40rpx;
+}
+.mtop10 {
+  margin-top: 10rpx;
+}

@@ -1,0 +1,87 @@
+{
+	"pages": [
+    {
+			"path": "pages/loading/loading",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+        "navigationBarTitleText": "",
+				"navigationStyle": "custom"
+			}
+		},
+    {
+			"path": "pages/brandActivity/brandActivity",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+    {
+			"path": "pages/mall/mall",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+    {
+			"path": "pages/my/my",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+    {
+			"path": "pages/webview/webview",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		}
+	],
+  "subpackages": [],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "嘉士伯小程序",
+		"navigationBarBackgroundColor": "#fff",
+		"backgroundColor": "#fff",
+    "usingComponents": {
+      "van-overlay": "./wxcomponents/@vant/weapp/overlay/index",
+      "van-popup": "./wxcomponents/@vant/weapp/popup/index",
+      "van-area": "./wxcomponents/@vant/weapp/area/index",
+      "van-datetime-picker": "./wxcomponents/@vant/weapp/datetime-picker/index"
+    }
+	},
+  "tabBar": {
+    "color": "#fff",
+    "backgroundColor": "#61a8ee",
+    "selectedColor": "#293a7f",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": ""
+      },
+      {
+        "pagePath": "pages/brandActivity/brandActivity",
+        "text": ""
+      },
+      {
+        "pagePath": "pages/mall/mall",
+        "text": ""
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": ""
+      }
+    ]
+  },
+  "plugins": {
+    "chatbot": {
+      "version": "1.2.23",
+      "provider": "wx8c631f7e9f2465e1"
+    },
+    "WechatSI": {
+      "version": "0.3.5",
+      "provider": "wx069ba97219f66d99"
+    }
+  }
+}
